@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Build Projects",
+      "setup": "DOTNET_CLI_HOME=/tmp/",
+      "run": "./dotnet_shell.sh SwapMeet,WingsHeaven",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
+    }
+  ]
+}
